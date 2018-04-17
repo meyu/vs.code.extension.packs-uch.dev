@@ -4,19 +4,23 @@
     "description": "校內開發常用的.NET、SQL、FTP工具箱",
     "version": "0.0.1",
     "publisher": "meyu",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/meyu/vs.code.extension.packs-uch.dev"
+    },
     "engines": {
         "vscode": "^1.22.0"
     },
     "categories": [
         "Extension Packs"
     ],
-    "extensionDependencies": [ 
-        "alefragnani.pascal", 
-        "donjayamanne.githistory", 
-        "GrapeCity.gc-excelviewer", 
-        "ms-mssql.mssql", 
-        "ms-vscode.csharp", 
-        "msjsdiag.debugger-for-chrome", 
+    "extensionDependencies": [
+        "alefragnani.pascal",
+        "donjayamanne.githistory",
+        "GrapeCity.gc-excelviewer",
+        "ms-mssql.mssql",
+        "ms-vscode.csharp",
+        "msjsdiag.debugger-for-chrome",
         "ruakr.ftp-kr"
     ]
 }
